@@ -1,12 +1,36 @@
-# React + Vite
+# 🔍 SearchPro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SearchPro** is a beginner-friendly yet powerful React.js search interface that provides real-time search suggestions. It pulls data from a local JSON server (`db.json`) and highlights user search terms as they type. The app includes input debouncing, caching, and intuitive result prioritization (results that start with the search term appear first).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Live search with real-time suggestions
+- ✅ Input debouncing for better performance
+- ✅ Cache mechanism to reduce redundant filtering
+- ✅ Prioritizes matches that **start with** the query
+- ✅ Highlights matched keywords
+- ✅ Built using functional components and React hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Technologies Used
+
+- **React.js** (with Hooks)
+- **CSS** (Basic styling)
+- **json-server** (for mock API)
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https: https://github.com/Pavitra059/SearchPro.git
+cd searchpro
+npm install
+npm run dev => for frontend
+json-server --watch db.json --port 4000 => for run db.json
+
